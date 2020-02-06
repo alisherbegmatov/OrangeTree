@@ -8,26 +8,30 @@
 
 /* Begin PBXBuildFile section */
 		E02B28CE23E3902C0091ABDF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E02B28CD23E3902C0091ABDF /* AppDelegate.swift */; };
-		E02B28D023E3902C0091ABDF /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = E02B28CF23E3902C0091ABDF /* GameScene.sks */; };
-		E02B28D223E3902C0091ABDF /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = E02B28D123E3902C0091ABDF /* Actions.sks */; };
 		E02B28D423E3902C0091ABDF /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = E02B28D323E3902C0091ABDF /* GameScene.swift */; };
 		E02B28D623E3902C0091ABDF /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E02B28D523E3902C0091ABDF /* GameViewController.swift */; };
 		E02B28D923E3902C0091ABDF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E02B28D723E3902C0091ABDF /* Main.storyboard */; };
 		E02B28DB23E390300091ABDF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E02B28DA23E390300091ABDF /* Assets.xcassets */; };
 		E02B28DE23E390300091ABDF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E02B28DC23E390300091ABDF /* LaunchScreen.storyboard */; };
+		E02B28E623E390980091ABDF /* Smashing-Things.atlas in Resources */ = {isa = PBXBuildFile; fileRef = E02B28E523E390980091ABDF /* Smashing-Things.atlas */; };
+		E02B28E823E396DD0091ABDF /* Orange.swift in Sources */ = {isa = PBXBuildFile; fileRef = E02B28E723E396DD0091ABDF /* Orange.swift */; };
+		E08EDE2223EA2B8100B733E7 /* Level-2.sks in Resources */ = {isa = PBXBuildFile; fileRef = E08EDE2123EA2B8100B733E7 /* Level-2.sks */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E02B28CA23E3902C0091ABDF /* OrangeTree.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OrangeTree.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E02B28CD23E3902C0091ABDF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E02B28CF23E3902C0091ABDF /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
-		E02B28D123E3902C0091ABDF /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
 		E02B28D323E3902C0091ABDF /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		E02B28D523E3902C0091ABDF /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		E02B28D823E3902C0091ABDF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E02B28DA23E390300091ABDF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E02B28DD23E390300091ABDF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E02B28DF23E390300091ABDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E02B28E523E390980091ABDF /* Smashing-Things.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = "Smashing-Things.atlas"; sourceTree = "<group>"; };
+		E02B28E723E396DD0091ABDF /* Orange.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Orange.swift; sourceTree = "<group>"; };
+		E08EDE2023EA2AEC00B733E7 /* Level-1.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = "Level-1.sks"; sourceTree = "<group>"; };
+		E08EDE2123EA2B8100B733E7 /* Level-2.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = "Level-2.sks"; sourceTree = "<group>"; };
+		E08EDE2323EA2FAF00B733E7 /* Level-3.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = "Level-3.sks"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,11 +64,14 @@
 		E02B28CC23E3902C0091ABDF /* OrangeTree */ = {
 			isa = PBXGroup;
 			children = (
+				E02B28E523E390980091ABDF /* Smashing-Things.atlas */,
 				E02B28CD23E3902C0091ABDF /* AppDelegate.swift */,
-				E02B28CF23E3902C0091ABDF /* GameScene.sks */,
-				E02B28D123E3902C0091ABDF /* Actions.sks */,
 				E02B28D323E3902C0091ABDF /* GameScene.swift */,
 				E02B28D523E3902C0091ABDF /* GameViewController.swift */,
+				E02B28E723E396DD0091ABDF /* Orange.swift */,
+				E08EDE2023EA2AEC00B733E7 /* Level-1.sks */,
+				E08EDE2123EA2B8100B733E7 /* Level-2.sks */,
+				E08EDE2323EA2FAF00B733E7 /* Level-3.sks */,
 				E02B28D723E3902C0091ABDF /* Main.storyboard */,
 				E02B28DA23E390300091ABDF /* Assets.xcassets */,
 				E02B28DC23E390300091ABDF /* LaunchScreen.storyboard */,
@@ -131,11 +138,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E08EDE2223EA2B8100B733E7 /* Level-2.sks in Resources */,
+				E02B28E623E390980091ABDF /* Smashing-Things.atlas in Resources */,
 				E02B28D923E3902C0091ABDF /* Main.storyboard in Resources */,
-				E02B28D023E3902C0091ABDF /* GameScene.sks in Resources */,
 				E02B28DB23E390300091ABDF /* Assets.xcassets in Resources */,
 				E02B28DE23E390300091ABDF /* LaunchScreen.storyboard in Resources */,
-				E02B28D223E3902C0091ABDF /* Actions.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,6 +156,7 @@
 				E02B28D423E3902C0091ABDF /* GameScene.swift in Sources */,
 				E02B28D623E3902C0091ABDF /* GameViewController.swift in Sources */,
 				E02B28CE23E3902C0091ABDF /* AppDelegate.swift in Sources */,
+				E02B28E823E396DD0091ABDF /* Orange.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,7 +309,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.makeschool.OrangeTree;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -318,7 +326,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.makeschool.OrangeTree;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
